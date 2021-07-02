@@ -11,7 +11,7 @@ body{
 }
 canvas {
     position: absolute;
-    left: 33.5vw;
+    left: 32.5vw;
     top: 10vh;
 }
 .gameover {
