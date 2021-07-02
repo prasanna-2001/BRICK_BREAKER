@@ -1,0 +1,82 @@
+/* canvas{
+    background:url(bg.png);
+} */
+
+*{
+    margin :0;
+    padding:0;
+}
+body{
+    background: black;
+}
+canvas {
+    position: absolute;
+    left: 33.5vw;
+    top: 10vh;
+}
+.gameover {
+    visibility: hidden;
+    position: absolute;
+    display: inline-block;
+    background:hotpink;
+    border: 0.6vh solid greenyellow;
+    height: 10vh;
+    width: 25vw;
+    border-radius: 5vw;
+    top:40vh;
+    left:35vw;
+    align-items: center;
+    justify-content: center;
+}
+.gobtn {
+    position: relative;
+    height: 10vh;
+    width: 25vw;
+    border: 0.6vh solid greenyellow;
+    border-radius: 5vw;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+
+
+.youWin {
+    visibility: hidden;
+    position: absolute;
+    display: inline-block;
+    background: hotpink;
+    border: 0.6vh solid greenyellow;
+    height: 10vh;
+    width: 380px;
+    border-radius: 5vw;
+    top: 385px;
+    left: 0.5vw;
+    align-items: center;
+    justify-content: center;
+}
+.ywbtn {
+    position: relative;
+    height: 10.3vh;
+    width: 380px;
+    border: 0.6vh solid greenyellow;
+    border-radius: 5vw;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+.winnotification {
+    visibility: hidden;
+    position: absolute;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    left: 50px;
+    top: 60px;
+}
+.winnotification img {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}

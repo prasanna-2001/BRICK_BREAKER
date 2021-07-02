@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.name{
+    font-style: 'Press Start 2p',cursive;
+    color: white;
+}
+.button {
+    position: absolute;
+    height: 25vh;
+    width: 60vw;
+    top: 30vw;
+    left: 25vw;
+    border: 1vh solid hotpink;
+    background: hotpink;
+    border-radius: 25vh;
+    font-size: 15vh;
+}
+.button:hover{
+    background: greenyellow;
+}
